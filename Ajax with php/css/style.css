@@ -1,0 +1,72 @@
+html{
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+	scrollbar-color: #00746B #28A745;
+}
+a{
+	text-decoration: none !important;
+}
+/*header*/
+h2.brandtxt{
+	color: #00746B;
+	text-transform: uppercase;
+}
+/*end of header*/
+
+/*main navbar*/
+nav.mainnavbar{
+	background: #00746B;
+}
+ul.mainnavul li{
+	padding: 3px;
+}
+ul.mainnavul li.active{
+	background: #073936;
+}
+ul.mainnavul li a{
+	color: white !important;
+}
+ul.mainnavul li:hover{
+	background: #00625c;
+}
+ul.mainnavul div.dropdown-menu{
+	background: #00746B;
+	top: 96%;
+}
+ul.mainnavul li:hover div.dropdown-menu{
+	display: block;
+
+}
+ul.mainnavul li div.dropdown-menu a{
+	color: black !important;
+}
+ul.mainnavul li div.dropdown-menu a:hover{
+	background: #00625c;
+}
+/*end of main navbar*/
+
+/*footer*/
+footer.footer{
+	background: black;
+}
+div.social a.fb i{
+	color: #4267B2;
+}
+div.social a.tw i{
+	color: #1A91DA;
+}
+div.social a.yt i{
+	color: #FF0000;
+}
+/*end of footer*/
+
+/*back to top*/
+button#backtotop{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 25px;
+}
+/*end of back to top*/
